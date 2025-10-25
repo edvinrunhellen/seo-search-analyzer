@@ -1,0 +1,65 @@
+# ===========================================
+# Python + Streamlit project .gitignore
+# ===========================================
+
+# 🧠 Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# ⚙️ Environment and secret keys
+.env
+.env.*
+*.env
+
+# 📦 Package caches
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# 🧪 Notebooks & checkpoints
+.ipynb_checkpoints
+*.ipynb
+
+# 🧠 IDE & editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖼️ OS generated files
+.DS_Store
+Thumbs.db
+
+# 📊 Streamlit cache and logs
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+.streamlit/logs/
+
+# 🧰 Logs and temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# 🚀 Deployment artifacts
+*.sqlite3
+*.db
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.gz
